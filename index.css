@@ -65,9 +65,18 @@ nav ul a {
     .myVideo{
         width: 100%;
     }
+    .footer{
+        width: 100%;
+    }    
+    .footer{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 500px){
     .myVideo{
+        width: 100%;
+    }
+    .footer{
         width: 100%;
     }
 }
@@ -75,9 +84,15 @@ nav ul a {
     .myVideo{
         width: 100%;
     }
+    .footer{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 1250px){
     .myVideo{
+        width: 100%;
+    }
+    .footer{
         width: 100%;
     }
 }
