@@ -60,6 +60,11 @@ nav ul a {
     object-fit: cover;
     background-size: cover;
 }
+@media screen and (max-width: 500px){
+    .myVideo{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 800px){
     .myVideo{
         width: 100%;
