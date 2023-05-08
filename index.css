@@ -200,9 +200,9 @@ section{
     }
     .grid-container-1{
         display: grid;
-        padding: 7px;
+        padding: 12px;
         grid-template-columns: auto auto auto;
-        font-size: 10px;
+        font-size: 8px;
     }
     .grid-item{
         padding: 7px;
