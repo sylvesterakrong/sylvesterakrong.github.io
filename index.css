@@ -204,8 +204,7 @@ section{
         display: grid;
         padding: 3px;
         grid-template-columns: auto auto auto;
-        font-size: 12px;
-        width: 100%;
+        font-size: 1px;
     }
     .grid-item{
         padding: 10px;
@@ -213,7 +212,7 @@ section{
         display: inline;
     }
     .grid-item-logo{
-        padding: -0.5px;
+        padding: 0.5px;
         display: inline;
         margin-left: -0.1cm;
     }
@@ -248,7 +247,6 @@ section{
         padding: 10px;
         grid-template-columns: auto auto auto;
         font-size: 14px;
-        width: 100%;
     }
     .grid-item{
         padding: 10px;
