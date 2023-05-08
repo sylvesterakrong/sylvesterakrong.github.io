@@ -203,6 +203,8 @@ section{
         padding: 5px;
         grid-template-columns: auto auto auto;
         font-size: 8px;
+        margin-left: 1px;
+        margin-right: 3px;
     }
     .grid-item{
         padding: 7px;
