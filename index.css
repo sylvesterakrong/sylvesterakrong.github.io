@@ -177,7 +177,7 @@ section{
 
 
 
-@media screen and (max-width: 100px){
+/*@media screen and (max-width: 100px){
     .myVideo{
         width: 100%;
     }
@@ -216,7 +216,7 @@ section{
         display: inline;
         margin-left: -0.1cm;
     }
-}
+}*/
 
 @media screen and (max-width: 600px){
     .myVideo{
@@ -244,7 +244,7 @@ section{
     }
     .grid-container-1{
         display: grid;
-        padding: 10px;
+        padding: 7px;
         grid-template-columns: auto auto auto;
         font-size: 14px;
     }
@@ -254,7 +254,7 @@ section{
         display: inline;
     }
     .grid-item-logo{
-        padding: 5px;
+        padding: 4px;
         display: inline;
         margin-left: -0.1cm;
     }
