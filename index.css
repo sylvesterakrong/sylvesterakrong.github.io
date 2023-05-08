@@ -87,10 +87,6 @@ section{
     background-color: aqua;
 }
 
-
-
-
-
 .footer{
     left: 0;
     bottom: 0;
@@ -113,7 +109,6 @@ section{
     padding: 10px 2px;
     grid-template-columns: auto auto auto auto;
 }
-
 .grid-item{
     padding: 10px;
     text-align: center;
@@ -205,7 +200,7 @@ section{
     }
     .grid-container-1{
         display: grid;
-        padding: 10px;
+        padding: 4px;
         grid-template-columns: auto auto auto;
         font-size: 1px;
     }
