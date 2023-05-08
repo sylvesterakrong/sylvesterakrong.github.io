@@ -199,7 +199,7 @@ section{
     border-radius: 30%;
 }
 .fa-youtube {
-    background: #bb0000;
+    background: footer;
     color: white;
     background-image: url(images/youtube.svg);
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ section{
 
 }
 .fa-instagram {
-    background: #FAEDE3;
+    background: footer;
     color: white;
     background-image: url(images/instagram.svg);
     background-repeat: no-repeat;
