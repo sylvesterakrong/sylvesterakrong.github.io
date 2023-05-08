@@ -202,7 +202,7 @@ section{
     }
     .grid-container-1{
         display: grid;
-        padding: 8px;
+        padding: 6px;
         grid-template-columns: auto auto auto;
         font-size: 12px;
     }
@@ -212,9 +212,9 @@ section{
         display: inline;
     }
     .grid-item-logo{
-        padding: 4px;
+        padding: 2px;
         display: inline;
-        margin-left: -0.1cm;
+        margin-left: -0.3cm;
     }
 }
 
