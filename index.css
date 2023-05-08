@@ -200,10 +200,10 @@ section{
     }
     .grid-container-1{
         display: grid;
-        padding: 6px;
+        padding: 5px;
         grid-template-columns: auto auto auto;
         font-size: 8px;
-        align-items: center;
+        
     }
     .grid-item{
         padding: 7px;
@@ -211,9 +211,8 @@ section{
         display: inline;
     }
     .grid-item-logo{
-        padding: 0.5px;
-        display: inline;
-        margin-left: 1px;
+        padding: 7px;
+        display: grid;
     }
 }
 
