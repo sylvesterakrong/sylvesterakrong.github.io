@@ -188,9 +188,6 @@ section{
     .footer{
         width: 100%;
     }    
-    .footer{
-        width: 100%;
-    }
     .fa{
         padding: 20px 16px ;
     }
@@ -213,6 +210,7 @@ section{
         margin-left: -0.1cm;
     }
 }
+
 @media screen and (max-width: 600px){
     .myVideo{
         width: 100%;
@@ -243,6 +241,7 @@ section{
         margin-left: -0.1cm;
     }
 }
+
 @media screen and (max-width: 800px){
     .myVideo{
         width: 100%;
@@ -272,6 +271,7 @@ section{
         margin-left: -0.1cm;
     }
 }
+
 @media screen and (max-width: 1200px){
     .myVideo{
         width: 100%;
