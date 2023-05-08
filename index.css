@@ -61,41 +61,6 @@ nav ul a {
     background-size: cover;
 }
 
-@media screen and (max-width: 100px){
-    .myVideo{
-        width: 100%;
-    }
-    .footer{
-        width: 100%;
-    }    
-    .footer{
-        width: 100%;
-    }
-}
-@media screen and (max-width: 600px){
-    .myVideo{
-        width: 100%;
-    }
-    .footer{
-        width: 100%;
-    }
-}
-@media screen and (max-width: 800px){
-    .myVideo{
-        width: 100%;
-    }
-    .footer{
-        width: 100%;
-    }
-}
-@media screen and (max-width: 1200px){
-    .myVideo{
-        width: 100%;
-    }
-    .footer{
-        width: 100%;
-    }
-}
 
 section{
     height: 100vh;
@@ -163,11 +128,11 @@ section{
 
 }
 .fa {
-    padding: 18px;
-    font-size: 20px;
+    padding: 23px 18px;
+    font-size: 3px;
     text-align: center;
     text-decoration: none;
-    margin: 14px 7px;
+    margin: 8px 4px;
 }
 
 .fa:hover {
@@ -175,43 +140,87 @@ section{
 }
 
 .fa-facebook {
-    background: #3B5998;
+    background: footer;
     color: white;
     background-image: url(images/facebook.svg);
     background-repeat: no-repeat;
-    font-size: 1px;
-    border-radius: 30%;
+    background-size: 100%;    
 }
 .fa-twitter {
-    background: #55ACEE;
+    background: footer;
     color: white;
     background-image: url(images/twitter.svg);
     background-repeat: no-repeat;
-    font-size: 1px;
-    border-radius: 30%;
+    background-size: 100%;    
 }
 .fa-linkedin {
-    background: #fafdff;
+    background: footer;
     color: white;
     background-image: url(images/linkedin.svg);
     background-repeat: no-repeat;
-    font-size: 1px;
-    border-radius: 30%;
+    background-size: 100%;    
 }
 .fa-youtube {
     background: footer;
     color: white;
     background-image: url(images/youtube.svg);
     background-repeat: no-repeat;
-    font-size: 1px;
-    border-radius: 30%;
-
+    background-size: 100%;    
 }
 .fa-instagram {
     background: footer;
     color: white;
     background-image: url(images/instagram.svg);
     background-repeat: no-repeat;
-    font-size: 1px;
-    border-radius: 30%;
+    background-size: 100%;    
+}
+
+
+
+@media screen and (max-width: 100px){
+    .myVideo{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }    
+    .footer{
+        width: 100%;
+    }
+    .fa{
+        padding: 20px 16px ;
+    }
+}
+@media screen and (max-width: 600px){
+    .myVideo{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .fa{
+        padding: 20px 16px ;
+    }
+}
+@media screen and (max-width: 800px){
+    .myVideo{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .fa{
+        padding: 20px 16px ;
+    }
+}
+@media screen and (max-width: 1200px){
+    .myVideo{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .fa{
+        padding: 20px 16px ;
+    }
 }
