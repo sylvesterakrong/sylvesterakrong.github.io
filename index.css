@@ -185,6 +185,12 @@ section{
         position: fixed;
         width: 100%;
     }
+    .nav ul a {
+        margin: 10px;
+        padding: 7px 10px;
+        display: flex;
+        font-size: 12px;
+    }
     .footer{
         width: 100%;
     }    
@@ -198,6 +204,7 @@ section{
         display: grid;
         padding: 10px;
         grid-template-columns: auto auto auto;
+        font-size: 12px;
     }
     .grid-item{
         padding: 10px;
@@ -215,6 +222,16 @@ section{
     .myVideo{
         width: 100%;
     }
+    .nav{
+        position: fixed;
+        width: 100%;
+    }
+    .nav ul a {
+        margin: 10px;
+        padding: 7px 10px;
+        display: flex;
+        font-size: 14px;
+    }
     .footer{
         width: 100%;
     }
@@ -229,6 +246,7 @@ section{
         display: grid;
         padding: 10px;
         grid-template-columns: auto auto auto;
+        font-size: 14px;
     }
     .grid-item{
         padding: 10px;
