@@ -248,6 +248,7 @@ section{
         padding: 7px;
         grid-template-columns: auto auto auto;
         font-size: 14px;
+        margin-right: 1cm;
     }
     .grid-item{
         padding: 10px;
