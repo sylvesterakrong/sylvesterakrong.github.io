@@ -190,6 +190,23 @@ section{
     .fa{
         padding: 20px 16px ;
     }
+    .grid-item h5{
+        display: inline;
+    }
+    .grid-container-1{
+        display: grid;
+        padding: 10px;
+        grid-template-columns: auto auto auto;
+    }
+    .grid-item{
+        padding: 10px;
+        text-align: center;
+        display: inline;
+    }
+    .grid-item-logo{
+        padding: 10px;
+        display: inline;
+    }
 }
 @media screen and (max-width: 600px){
     .myVideo{
@@ -200,6 +217,24 @@ section{
     }
     .fa{
         padding: 20px 16px ;
+    }
+
+    .grid-item h5{
+        display: inline;
+    }
+    .grid-container-1{
+        display: grid;
+        padding: 10px;
+        grid-template-columns: auto auto auto;
+    }
+    .grid-item{
+        padding: 10px;
+        text-align: center;
+        display: inline;
+    }
+    .grid-item-logo{
+        padding: 10px;
+        display: inline;
     }
 }
 @media screen and (max-width: 800px){
@@ -212,6 +247,23 @@ section{
     .fa{
         padding: 20px 16px ;
     }
+    .grid-item h5{
+        display: inline;
+    }
+    .grid-container-1{
+        display: grid;
+        padding: 10px;
+        grid-template-columns: auto auto auto;
+    }
+    .grid-item{
+        padding: 10px;
+        text-align: center;
+        display: inline;
+    }
+    .grid-item-logo{
+        padding: 10px;
+        display: inline;
+    }
 }
 @media screen and (max-width: 1200px){
     .myVideo{
@@ -222,5 +274,22 @@ section{
     }
     .fa{
         padding: 20px 16px ;
+    }
+    .grid-item h5{
+        display: inline;
+    }
+    .grid-container-1{
+        display: grid;
+        padding: 10px;
+        grid-template-columns: auto auto auto;
+    }
+    .grid-item{
+        padding: 10px;
+        text-align: center;
+        display: inline;
+    }
+    .grid-item-logo{
+        padding: 10px;
+        display: inline;
     }
 }
