@@ -99,6 +99,7 @@ section{
     background-color: #0f0e12;
     color: #FAEDE3;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .grid-container{
