@@ -178,7 +178,7 @@ section{
 
 
 
-/*@media screen and (max-width: 100px){
+@media screen and (max-width: 100px){
     .myVideo{
         width: 100%;
     }
@@ -203,21 +203,21 @@ section{
     }
     .grid-container-1{
         display: grid;
-        padding: 3px;
+        padding: 2px;
         grid-template-columns: auto auto auto;
         font-size: 1px;
     }
     .grid-item{
-        padding: 10px;
+        padding: 7px;
         text-align: center;
         display: inline;
     }
     .grid-item-logo{
         padding: 0.5px;
         display: inline;
-        margin-left: -0.1cm;
+        margin-left: 1px;
     }
-}*/
+}
 
 @media screen and (max-width: 600px){
     .myVideo{
@@ -248,7 +248,6 @@ section{
         padding: 7px;
         grid-template-columns: auto auto auto;
         font-size: 14px;
-        margin-right: 1cm;
     }
     .grid-item{
         padding: 10px;
