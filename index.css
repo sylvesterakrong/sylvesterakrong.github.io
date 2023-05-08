@@ -203,13 +203,14 @@ section{
         padding: 5px;
         grid-template-columns: auto auto auto;
         font-size: 8px;
-        margin-left: 1px;
         margin-right: 3px;
+        margin-right: -10px;
     }
     .grid-item{
         padding: 7px;
         text-align: center;
         display: inline;
+        margin-right: -6px;
     }
     .grid-item-logo{
         padding: 3px;
@@ -251,6 +252,7 @@ section{
         padding: 10px;
         text-align: center;
         display: inline;
+        margin-right: -6px;
     }
     .grid-item-logo{
         padding: 4px;
