@@ -181,6 +181,18 @@ section{
     .myVideo{
         width: 100%;
     }
+    nav ul a {
+        height: 40px;
+        line-height: 43px;
+        margin: 8px;
+        padding: 7px 10px;
+        display: flex;
+        font-size: 8px;
+        font-weight: 600;
+        color: #000000;
+        transition: 0.1s;
+        float: right;
+    }
     .footer{
         width: 100%;
     }    
