@@ -3,6 +3,11 @@ body {
     padding:0;
     background-color:#FAEDE3;
 }
+.section-names{
+    font-size: 35px;
+    text-align: left;
+    top: 0;
+}
 
 .nav{
     position: fixed;
@@ -68,23 +73,24 @@ section{
     align-items: center;
 }
 
-.home{
+.section-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 30vh;
+    width: 80%;
+    padding-left: -80px;
+    padding-right: 80px;
+}
+.section-container-grid-left{
+    text-align: center;
+    background-color: red;
+}
+.section-container-grid-right{
+    text-align: center;
     background-color: white;
-    left: 0;
-    right: 0;
 }
 
-.contact{
-    background-color: #968db1;
-}
 
-.service{
-    background-color: #e4b796;
-}
-
-.aboutus{
-    background-color: aqua;
-}
 
 .footer{
     left: 0;
@@ -102,6 +108,7 @@ section{
     padding: 10px 0 -2px;
     grid-template-columns: auto auto;
     margin-top: -2px;
+    font-size: 12px;
 }
 .grid-container-1{
     display: grid;
