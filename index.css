@@ -85,6 +85,7 @@ section{
 .section-container-grid-left{
     text-align: center;
     background-color: red;
+    padding-right: 70px;
 }
 .section-container-grid-right{
     text-align: center;
@@ -92,9 +93,8 @@ section{
 }
 .writeup{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 30px;
-    margin: 10px;
-    justify-content: center;
+    padding: 20px;
+    margin: 5px;
     float: right;
     font-size: 20px;
     font-weight: lighter;
@@ -189,7 +189,7 @@ section{
 
 
 
-@media screen and (max-width: 100px){
+@media screen and (max-width: 300px){
     .myVideo{
         width: 100%;
     }
@@ -214,20 +214,23 @@ section{
     }
     .grid-container-1{
         display: grid;
-        padding: 5px;
         grid-template-columns: auto auto auto;
-        font-size: 8px;
-        margin-right: -12px;
+        margin-left: -14px;
+        margin-right: -40px;
     }
-    .grid-item{
-        padding: 7px;
+    .grid-item {
+        padding: 0;
         text-align: center;
         display: inline;
-        margin-right: -7px;
+        font-size: 11px;
+        margin: 0;
+        width: auto;
     }
+   
     .grid-item-logo{
-        padding: 3px;
+        margin-left: -50px;
         display: inline;
+        font-size: 18px;
     }
 }
 
@@ -261,7 +264,7 @@ section{
         grid-template-columns: auto auto auto;
         font-size: 13px;
         margin-left: -14px;
-        margin-right: -16px;
+        margin-right: -12px;
     }
     .grid-item{
         padding: 20px;
@@ -279,6 +282,21 @@ section{
     .myVideo{
         width: 100%;
     }
+    .section-container{
+        display:grid;
+    }
+
+    .section-container-grid-left {
+        width: 100%;
+        padding: 40px 0 30px;
+
+    }
+
+    .section-container-grid-right{
+        width: 100%;
+        padding: 8cm 0 95px 0;
+    }
+
     .footer{
         width: 100%;
     }
@@ -332,5 +350,21 @@ section{
         padding: 10px;
         display: inline;
         margin-left: -0.1cm;
+    }
+    .section-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 80vh;
+        width: 100%;
+        padding: 50px;
+        overflow: hidden;
+    }
+    .section-container-grid-left{
+        text-align: center;
+        background-color: red;
+    }
+    .section-container-grid-right{
+        text-align: center;
+        background-color: white;
     }
 }
