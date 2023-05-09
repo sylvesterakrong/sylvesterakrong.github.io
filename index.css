@@ -60,7 +60,11 @@ nav ul a {
     object-fit: cover;
     background-size: cover;
 }
-
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
 
 section{
     height: 100vh;
