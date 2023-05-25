@@ -85,7 +85,6 @@ section{
 .section-container-grid-left{
     text-align: center;
     background-color: red;
-    padding-right: 70px;
 }
 .section-container-grid-right{
     text-align: center;
@@ -303,7 +302,8 @@ a:active{
     }
     .section-container-grid-right{
         text-align: center;
-        width: 100%;    
+        width: 100%; 
+        padding:
     }
 
 }
@@ -318,8 +318,6 @@ a:active{
 
     .section-container-grid-left {
         width: 100%;
-        padding: 40px 0 30px;
-
     }
 
     .section-container-grid-right{
