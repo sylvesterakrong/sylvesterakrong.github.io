@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding:0;
-    background-color:#FAEDE3;
+    background-color:#ffffff;
 }
 .section-names{
     font-size: 35px;
@@ -20,7 +20,7 @@ body {
     height: 60px;
     width: 100%;
     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(7px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 1;
     float: right;
@@ -72,6 +72,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color: #000000;
 }
 
 .section-container{
@@ -95,9 +96,10 @@ section{
     padding: 20px;
     margin: 4px;
     float: right;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: lighter;
     text-align: left;
+    margin-top: -10px;
 }
 
 .footer{
@@ -106,24 +108,24 @@ section{
     width: 100%;
     right: 0;
     background-color: #0f0e12;
-    color: #FAEDE3;
+    color: #b77b4d;
     text-align: center;
     overflow-x: hidden;
 }
 a:link{
-    color: #FAEDE3;
+    color: #b77b4d;
     text-decoration: none;
 }
 a:visited{
-    color: #FAEDE3;
+    color: #b77b4d;
     text-decoration: none;
 }
 a:hover{
-    color: #FAEDE3;
+    color: #b77b4d;
     text-decoration: none;
 }
 a:active{
-    color: #FAEDE3;
+    color: #b77b4d;
     text-decoration: none;
 }
 
@@ -249,9 +251,10 @@ a:active{
         display: inline;
         font-size: 15px;
     }
+
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     .myVideo{
         width: 100%;
     }
@@ -295,7 +298,9 @@ a:active{
     }
     .section-container{
         display: block;
+        flex-wrap: wrap;
     }
+
     .section-container-grid-left{
         text-align: center;
         width: 100%;
@@ -303,9 +308,7 @@ a:active{
     .section-container-grid-right{
         text-align: center;
         width: 100%; 
-        padding:
     }
-
 }
 
 @media screen and (max-width: 800px){
@@ -314,6 +317,7 @@ a:active{
     }
     .section-container{
         display:grid;
+        height:auto;
     }
 
     .section-container-grid-left {
@@ -350,14 +354,10 @@ a:active{
         margin-left: -0.1cm;
     }
     .writeup{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 10px;
+        padding: 20px;
         margin: 4px;
-        float: right;
-        font-size: 20px;
-        font-weight: lighter;
-        text-align: left;
-        margin-top: -300px;
+        font-size: 23px;
+        margin-top: -250px;
     }
 }
 
