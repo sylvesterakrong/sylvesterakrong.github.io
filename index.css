@@ -241,7 +241,7 @@ a:active{
         padding: 0;
         text-align: center;
         display: inline;
-        font-size: 10px;
+        font-size: 9px;
         margin: 0;
         width: auto;
     }
@@ -249,7 +249,7 @@ a:active{
     .grid-item-logo{
         margin-left: -2px;
         display: inline;
-        font-size: 15px;
+        font-size: 12px;
     }
 
 }
